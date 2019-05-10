@@ -108,10 +108,9 @@ while choice != 0:
         plt.ylabel("# of Cars")
         plt.show()
 
-        plt.hist(cars['highway MPG'])
+        plt.plot(cars['highway MPG'])
         plt.title("Cars per MPG")
-        plt.xlabel("MPG of Car")
-        plt.ylabel("# of Cars")
-        plt.xlim(10,45)
+        plt.xlabel("Index #")
+        plt.ylabel("MPG of Cars")
         plt.show()
 
